@@ -1,0 +1,6 @@
+name: 01-1 - Integration - Quality_Sonarqube
+
+on:
+  workflow_call
+
+jobs:

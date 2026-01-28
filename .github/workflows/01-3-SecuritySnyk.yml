@@ -1,0 +1,6 @@
+name: 01-1 - Integration - Security_Snyk
+
+on:
+  workflow_call
+
+jobs:
