@@ -24,7 +24,7 @@ services:
 
   mono_backend_build:
     container_name: mono_backend_build
-    build: ./backend/.
+    build: ../../backend
     environment:
       BDD_HOST: cktefrei_bdd
     ports:
