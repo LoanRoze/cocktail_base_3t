@@ -14,7 +14,7 @@ jobs:
         image: mariadb:latest
         env:
           MARIADB_ROOT_PASSWORD: toor
-          MARIADB_DATABSE: test
+          MARIADB_DATABASE: test
           MARIADB_USER: test
           MARIADB_PASSWORD: test
         ports:
