@@ -15,3 +15,5 @@ db.sequelize.authenticate()
     })
     .catch(e => console.log(e))
 
+    console.log("pipi");
+    
