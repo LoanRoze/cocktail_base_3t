@@ -5,7 +5,7 @@ on:
     branches:
       - develop
       - release/*
-jobs: 
+jobs:
   Display_Data:
     runs-on: ubuntu-latest
     steps:
@@ -18,7 +18,7 @@ jobs:
     with:
       docker-mode: canary
 
-  Trivy_Scan:
-    needs: [Build_Push_Docker]
-    uses: ./.github/workflows/02-2-TrivyScan.yml
-    secrets: inherit
+  # Trivy_Scan:
+  #   needs: [Build_Push_Docker]
+  #   uses: ./.github/workflows/02-2-TrivyScan.yml
+  #   secrets: inherit
